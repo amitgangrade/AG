@@ -98,22 +98,29 @@ def run_benchmark():
     print(f"Python Time: {time_py:.4f} seconds")
 
     # --- 2. Measure Numba ---
-    print("\nRunning Numba implementation...")
+    print("\nRunning Numba implementation with 20 iterations...")
     # Warmup / Compilation: Numba compiles the function on the first call.
-    # We run it once on a small grid to ensure compilation overhead doesn't skew benchmark results.
     print("  Compiling...", end="\r")
     _ = mandelbrot_numba(10, 10, MAX_ITER, X_MIN, X_MAX, Y_MIN, Y_MAX) 
     print("  Compiling... Done.")
     
-    # Actual timed run with the full grid
-    start_nb = time.time()
-    result_nb = mandelbrot_numba(HEIGHT, WIDTH, MAX_ITER, X_MIN, X_MAX, Y_MIN, Y_MAX)
-    end_nb = time.time()
-    time_nb = end_nb - start_nb
-    print(f"Numba Time:  {time_nb:.4f} seconds")
+    iterations = 20
+    best_time = float('inf')
+    result_nb = None
+    
+    for i in range(1, iterations + 1):
+        start_nb = time.time()
+        result_nb = mandelbrot_numba(HEIGHT, WIDTH, MAX_ITER, X_MIN, X_MAX, Y_MIN, Y_MAX)
+        end_nb = time.time()
+        time_nb = end_nb - start_nb
+        if time_nb < best_time:
+            best_time = time_nb
+        print(f"  Run {i:2d}: {time_nb:.4f} seconds")
+
+    print(f"Numba Time:  {best_time:.4f} seconds (best of {iterations})")
 
     # --- 3. Results Summary ---
-    speedup = time_py / time_nb
+    speedup = time_py / best_time
     print("-" * 60)
     print(f"SPEEDUP: {speedup:.2f}x FASTER")
     print("-" * 60)
@@ -121,10 +128,11 @@ def run_benchmark():
     # Save a visualization to verify correct computation
     try:
         from PIL import Image
-        # Convert the iteration counts to an 8-bit image
-        img = Image.fromarray((result_nb % 255).astype(np.uint8))
-        img.save("mandelbrot.png")
-        print("\nVisualization saved to 'mandelbrot.png'")
+        if result_nb is not None:
+            # Convert the iteration counts to an 8-bit image
+            img = Image.fromarray((result_nb % 255).astype(np.uint8))
+            img.save("mandelbrot.png")
+            print("\nVisualization saved to 'mandelbrot.png'")
     except ImportError:
         print("\nPIL not installed, skipping image save (Pillow is required for this step).")
 

@@ -9,17 +9,24 @@ public class Mandelbrot {
     static final double Y_MAX = 1.5;
 
     public static void main(String[] args) {
-        System.out.println("Benchmarking Mandelbrot Set (Java)...");
-        
-        // Warmup
-        mandelbrot(10, 10);
+        System.out.println("Benchmarking Mandelbrot Set (Java with JIT Warmup)...");
 
-        long startTime = System.nanoTime();
-        int[][] result = mandelbrot(WIDTH, HEIGHT);
-        long endTime = System.nanoTime();
+        int iterations = 20;
+        double bestTime = Double.MAX_VALUE;
 
-        double durationSeconds = (endTime - startTime) / 1_000_000_000.0;
-        System.out.printf("Java Time:  %.4f seconds%n", durationSeconds);
+        for (int i = 1; i <= iterations; i++) {
+            long startTime = System.nanoTime();
+            int[][] result = mandelbrot(WIDTH, HEIGHT);
+            long endTime = System.nanoTime();
+
+            double durationSeconds = (endTime - startTime) / 1_000_000_000.0;
+            if (durationSeconds < bestTime) {
+                bestTime = durationSeconds;
+            }
+            System.out.printf("  Run %2d: %.4f seconds%n", i, durationSeconds);
+        }
+
+        System.out.printf("Java Time:  %.4f seconds (best of %d)%n", bestTime, iterations);
     }
 
     public static int[][] mandelbrot(int width, int height) {

@@ -41,11 +41,20 @@ func mandelbrot(width, height int) [][]int {
 }
 
 func main() {
-	fmt.Println("Benchmarking Mandelbrot Set (Go)...")
+	fmt.Println("Benchmarking Mandelbrot Set (Go with 20 iterations)...")
 
-	start := time.Now()
-	_ = mandelbrot(WIDTH, HEIGHT)
-	duration := time.Since(start)
+	iterations := 20
+	var bestTime float64 = 1e9
 
-	fmt.Printf("Go Time:    %.4f seconds\n", duration.Seconds())
+	for i := 1; i <= iterations; i++ {
+		start := time.Now()
+		_ = mandelbrot(WIDTH, HEIGHT)
+		duration := time.Since(start).Seconds()
+		if duration < bestTime {
+			bestTime = duration
+		}
+		fmt.Printf("  Run %2d: %.4f seconds\n", i, duration)
+	}
+
+	fmt.Printf("Go Time:    %.4f seconds (best of %d)\n", bestTime, iterations)
 }
