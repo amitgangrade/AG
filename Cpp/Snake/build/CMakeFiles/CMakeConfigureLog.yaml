@@ -1,0 +1,2280 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Windows -  - 
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: --target=x86_64-w64-mingw32
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/4.2.3/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ar.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ranlib.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-strip.com"
+    found: "C:/Program Files/LLVM/bin/llvm-strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/ld.lld.com"
+    found: "C:/Program Files/LLVM/bin/ld.lld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-nm.com"
+    found: "C:/Program Files/LLVM/bin/llvm-nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-objdump.com"
+    found: "C:/Program Files/LLVM/bin/llvm-objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-objcopy.com"
+    found: "C:/Program Files/LLVM/bin/llvm-objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-readelf.com"
+      - "C:/Program Files/LLVM/bin/llvm-readelf.exe"
+      - "C:/Program Files/LLVM/bin/llvm-readelf"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-readelf.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-readelf.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-readelf"
+      - "C:/Program Files/Google/Chrome/Application/llvm-readelf.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-readelf.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-readelf"
+      - "C:/Windows/System32/llvm-readelf.com"
+      - "C:/Windows/System32/llvm-readelf.exe"
+      - "C:/Windows/System32/llvm-readelf"
+      - "C:/Windows/llvm-readelf.com"
+      - "C:/Windows/llvm-readelf.exe"
+      - "C:/Windows/llvm-readelf"
+      - "C:/Windows/System32/wbem/llvm-readelf.com"
+      - "C:/Windows/System32/wbem/llvm-readelf.exe"
+      - "C:/Windows/System32/wbem/llvm-readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-readelf"
+      - "C:/Windows/System32/OpenSSH/llvm-readelf.com"
+      - "C:/Windows/System32/OpenSSH/llvm-readelf.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-readelf"
+      - "C:/Recovery/OEM/Backup/llvm-readelf.com"
+      - "C:/Recovery/OEM/Backup/llvm-readelf.exe"
+      - "C:/Recovery/OEM/Backup/llvm-readelf"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-readelf.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-readelf.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-readelf"
+      - "C:/Program Files/LLVM/bin/readelf.com"
+      - "C:/Program Files/LLVM/bin/readelf.exe"
+      - "C:/Program Files/LLVM/bin/readelf"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/readelf.com"
+    found: "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-dlltool.com"
+    found: "C:/Program Files/LLVM/bin/llvm-dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-addr2line.com"
+      - "C:/Program Files/LLVM/bin/llvm-addr2line.exe"
+      - "C:/Program Files/LLVM/bin/llvm-addr2line"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-addr2line.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-addr2line.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-addr2line"
+      - "C:/Program Files/Google/Chrome/Application/llvm-addr2line.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-addr2line.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-addr2line"
+      - "C:/Windows/System32/llvm-addr2line.com"
+      - "C:/Windows/System32/llvm-addr2line.exe"
+      - "C:/Windows/System32/llvm-addr2line"
+      - "C:/Windows/llvm-addr2line.com"
+      - "C:/Windows/llvm-addr2line.exe"
+      - "C:/Windows/llvm-addr2line"
+      - "C:/Windows/System32/wbem/llvm-addr2line.com"
+      - "C:/Windows/System32/wbem/llvm-addr2line.exe"
+      - "C:/Windows/System32/wbem/llvm-addr2line"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-addr2line.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-addr2line.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-addr2line"
+      - "C:/Windows/System32/OpenSSH/llvm-addr2line.com"
+      - "C:/Windows/System32/OpenSSH/llvm-addr2line.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-addr2line"
+      - "C:/Recovery/OEM/Backup/llvm-addr2line.com"
+      - "C:/Recovery/OEM/Backup/llvm-addr2line.exe"
+      - "C:/Recovery/OEM/Backup/llvm-addr2line"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-addr2line"
+      - "C:/Program Files/LLVM/bin/addr2line.com"
+      - "C:/Program Files/LLVM/bin/addr2line.exe"
+      - "C:/Program Files/LLVM/bin/addr2line"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/addr2line.com"
+    found: "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/tapi.com"
+      - "C:/Program Files/LLVM/bin/tapi.exe"
+      - "C:/Program Files/LLVM/bin/tapi"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/tapi.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/tapi.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/tapi"
+      - "C:/Program Files/Google/Chrome/Application/tapi.com"
+      - "C:/Program Files/Google/Chrome/Application/tapi.exe"
+      - "C:/Program Files/Google/Chrome/Application/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Recovery/OEM/Backup/tapi.com"
+      - "C:/Recovery/OEM/Backup/tapi.exe"
+      - "C:/Recovery/OEM/Backup/tapi"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1"
+      - "C:/Windows/System32/llvm-ar-21.1.com"
+      - "C:/Windows/System32/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/llvm-ar-21.1"
+      - "C:/Windows/llvm-ar-21.1.com"
+      - "C:/Windows/llvm-ar-21.1.exe"
+      - "C:/Windows/llvm-ar-21.1"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1.com"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21"
+      - "C:/Windows/System32/llvm-ar-21.com"
+      - "C:/Windows/System32/llvm-ar-21.exe"
+      - "C:/Windows/System32/llvm-ar-21"
+      - "C:/Windows/llvm-ar-21.com"
+      - "C:/Windows/llvm-ar-21.exe"
+      - "C:/Windows/llvm-ar-21"
+      - "C:/Windows/System32/wbem/llvm-ar-21.com"
+      - "C:/Windows/System32/wbem/llvm-ar-21.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21"
+      - "C:/Program Files/LLVM/bin/llvm-ar21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21"
+      - "C:/Windows/System32/llvm-ar21.com"
+      - "C:/Windows/System32/llvm-ar21.exe"
+      - "C:/Windows/System32/llvm-ar21"
+      - "C:/Windows/llvm-ar21.com"
+      - "C:/Windows/llvm-ar21.exe"
+      - "C:/Windows/llvm-ar21"
+      - "C:/Windows/System32/wbem/llvm-ar21.com"
+      - "C:/Windows/System32/wbem/llvm-ar21.exe"
+      - "C:/Windows/System32/wbem/llvm-ar21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21"
+      - "C:/Recovery/OEM/Backup/llvm-ar21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21"
+      - "C:/Program Files/LLVM/bin/llvm-ar.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1"
+      - "C:/Windows/System32/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/llvm-ranlib-21.1"
+      - "C:/Windows/llvm-ranlib-21.1.com"
+      - "C:/Windows/llvm-ranlib-21.1.exe"
+      - "C:/Windows/llvm-ranlib-21.1"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21"
+      - "C:/Windows/System32/llvm-ranlib-21.com"
+      - "C:/Windows/System32/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/llvm-ranlib-21"
+      - "C:/Windows/llvm-ranlib-21.com"
+      - "C:/Windows/llvm-ranlib-21.exe"
+      - "C:/Windows/llvm-ranlib-21"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21"
+      - "C:/Windows/System32/llvm-ranlib21.com"
+      - "C:/Windows/System32/llvm-ranlib21.exe"
+      - "C:/Windows/System32/llvm-ranlib21"
+      - "C:/Windows/llvm-ranlib21.com"
+      - "C:/Windows/llvm-ranlib21.exe"
+      - "C:/Windows/llvm-ranlib21"
+      - "C:/Windows/System32/wbem/llvm-ranlib21.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib21.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1"
+      - "C:/Windows/System32/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/clang-scan-deps-21.1"
+      - "C:/Windows/clang-scan-deps-21.1.com"
+      - "C:/Windows/clang-scan-deps-21.1.exe"
+      - "C:/Windows/clang-scan-deps-21.1"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21"
+      - "C:/Windows/System32/clang-scan-deps-21.com"
+      - "C:/Windows/System32/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/clang-scan-deps-21"
+      - "C:/Windows/clang-scan-deps-21.com"
+      - "C:/Windows/clang-scan-deps-21.exe"
+      - "C:/Windows/clang-scan-deps-21"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21"
+      - "C:/Windows/System32/clang-scan-deps21.com"
+      - "C:/Windows/System32/clang-scan-deps21.exe"
+      - "C:/Windows/System32/clang-scan-deps21"
+      - "C:/Windows/clang-scan-deps21.com"
+      - "C:/Windows/clang-scan-deps21.exe"
+      - "C:/Windows/clang-scan-deps21"
+      - "C:/Windows/System32/wbem/clang-scan-deps21.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps21.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps.com"
+    found: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: --target=x86_64-w64-mingw32
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.1"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.1"
+      - "C:/Windows/System32/llvm-ar-21.1.com"
+      - "C:/Windows/System32/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/llvm-ar-21.1"
+      - "C:/Windows/llvm-ar-21.1.com"
+      - "C:/Windows/llvm-ar-21.1.exe"
+      - "C:/Windows/llvm-ar-21.1"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1.com"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.1"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar-21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar-21"
+      - "C:/Windows/System32/llvm-ar-21.com"
+      - "C:/Windows/System32/llvm-ar-21.exe"
+      - "C:/Windows/System32/llvm-ar-21"
+      - "C:/Windows/llvm-ar-21.com"
+      - "C:/Windows/llvm-ar-21.exe"
+      - "C:/Windows/llvm-ar-21"
+      - "C:/Windows/System32/wbem/llvm-ar-21.com"
+      - "C:/Windows/System32/wbem/llvm-ar-21.exe"
+      - "C:/Windows/System32/wbem/llvm-ar-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar-21"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar-21"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar-21"
+      - "C:/Program Files/LLVM/bin/llvm-ar21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ar21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ar21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ar21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ar21"
+      - "C:/Windows/System32/llvm-ar21.com"
+      - "C:/Windows/System32/llvm-ar21.exe"
+      - "C:/Windows/System32/llvm-ar21"
+      - "C:/Windows/llvm-ar21.com"
+      - "C:/Windows/llvm-ar21.exe"
+      - "C:/Windows/llvm-ar21"
+      - "C:/Windows/System32/wbem/llvm-ar21.com"
+      - "C:/Windows/System32/wbem/llvm-ar21.exe"
+      - "C:/Windows/System32/wbem/llvm-ar21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ar21"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ar21"
+      - "C:/Recovery/OEM/Backup/llvm-ar21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ar21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ar21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ar21"
+      - "C:/Program Files/LLVM/bin/llvm-ar.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.1"
+      - "C:/Windows/System32/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/llvm-ranlib-21.1"
+      - "C:/Windows/llvm-ranlib-21.1.com"
+      - "C:/Windows/llvm-ranlib-21.1.exe"
+      - "C:/Windows/llvm-ranlib-21.1"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.1"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.1"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib-21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib-21"
+      - "C:/Windows/System32/llvm-ranlib-21.com"
+      - "C:/Windows/System32/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/llvm-ranlib-21"
+      - "C:/Windows/llvm-ranlib-21.com"
+      - "C:/Windows/llvm-ranlib-21.exe"
+      - "C:/Windows/llvm-ranlib-21"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib-21"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib-21"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21.com"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/llvm-ranlib21"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21.com"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21.exe"
+      - "C:/Program Files/Google/Chrome/Application/llvm-ranlib21"
+      - "C:/Windows/System32/llvm-ranlib21.com"
+      - "C:/Windows/System32/llvm-ranlib21.exe"
+      - "C:/Windows/System32/llvm-ranlib21"
+      - "C:/Windows/llvm-ranlib21.com"
+      - "C:/Windows/llvm-ranlib21.exe"
+      - "C:/Windows/llvm-ranlib21"
+      - "C:/Windows/System32/wbem/llvm-ranlib21.com"
+      - "C:/Windows/System32/wbem/llvm-ranlib21.exe"
+      - "C:/Windows/System32/wbem/llvm-ranlib21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-ranlib21"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21.com"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21.exe"
+      - "C:/Windows/System32/OpenSSH/llvm-ranlib21"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21.com"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21.exe"
+      - "C:/Recovery/OEM/Backup/llvm-ranlib21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21"
+      - "C:/Program Files/LLVM/bin/llvm-ranlib.com"
+    found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.1"
+      - "C:/Windows/System32/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/clang-scan-deps-21.1"
+      - "C:/Windows/clang-scan-deps-21.1.com"
+      - "C:/Windows/clang-scan-deps-21.1.exe"
+      - "C:/Windows/clang-scan-deps-21.1"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.1"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.1"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.1"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps-21"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps-21"
+      - "C:/Windows/System32/clang-scan-deps-21.com"
+      - "C:/Windows/System32/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/clang-scan-deps-21"
+      - "C:/Windows/clang-scan-deps-21.com"
+      - "C:/Windows/clang-scan-deps-21.exe"
+      - "C:/Windows/clang-scan-deps-21"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps-21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps-21"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps-21"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps-21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21.com"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang-scan-deps21"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21.com"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21.exe"
+      - "C:/Program Files/Google/Chrome/Application/clang-scan-deps21"
+      - "C:/Windows/System32/clang-scan-deps21.com"
+      - "C:/Windows/System32/clang-scan-deps21.exe"
+      - "C:/Windows/System32/clang-scan-deps21"
+      - "C:/Windows/clang-scan-deps21.com"
+      - "C:/Windows/clang-scan-deps21.exe"
+      - "C:/Windows/clang-scan-deps21"
+      - "C:/Windows/System32/wbem/clang-scan-deps21.com"
+      - "C:/Windows/System32/wbem/clang-scan-deps21.exe"
+      - "C:/Windows/System32/wbem/clang-scan-deps21"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang-scan-deps21"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21.com"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21.exe"
+      - "C:/Windows/System32/OpenSSH/clang-scan-deps21"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21.com"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21.exe"
+      - "C:/Recovery/OEM/Backup/clang-scan-deps21"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.com"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.exe"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21"
+      - "C:/Program Files/LLVM/bin/clang-scan-deps.com"
+    found: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake:279 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang.cmake:291 (__windows_compiler_clang_base)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Clang-C.cmake:2 (__windows_compiler_clang)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Program Files/Google/Chrome/Application/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Recovery/OEM/Backup/"
+      - "C:/Users/AG/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/SnakeGame/bin/"
+      - "C:/Program Files (x86)/SnakeGame/sbin/"
+      - "C:/Program Files (x86)/SnakeGame/"
+    searched_directories:
+      - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/windres.com"
+    found: "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "C:\\Program Files\\Google\\Chrome\\Application"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Recovery\\OEM\\Backup\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WindowsApps"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SnakeGame"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SnakeGame"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yg8fq9"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yg8fq9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "--target=x86_64-w64-mingw32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yg8fq9'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_d0488
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   --target=x86_64-w64-mingw32    -v -MD -MT CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d0488.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         (in-process)
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-yg8fq9" -v "-fcoverage-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-yg8fq9" -resource-dir "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21" -dependency-file "CMakeFiles\\\\cmTC_d0488.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\usr/include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include" -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-windows-msvc
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:\\Program Files\\LLVM\\lib\\clang\\21\\include
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include
+        End of search list.
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe --target=x86_64-w64-mingw32 -v -Wl,-v CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -o cmTC_d0488.exe -Wl,--out-implib,libcmTC_d0488.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe" -m i386pep -Bdynamic -o cmTC_d0488.exe "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o" "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib" "-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows" -v CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d0488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o"
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Program Files/LLVM/lib/clang/21/include]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+        end of search list found
+        collapse include dir [C:/Program Files/LLVM/lib/clang/21/include] ==> [C:/Program Files/LLVM/lib/clang/21/include]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+        implicit include dirs: [C:/Program Files/LLVM/lib/clang/21/include;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yg8fq9']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_d0488]
+        ignore line: [[1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   --target=x86_64-w64-mingw32    -v -MD -MT CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_d0488.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Program Files\\LLVM\\bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Program Files\\\\LLVM\\\\bin\\\\clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-yg8fq9" -v "-fcoverage-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-yg8fq9" -resource-dir "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21" -dependency-file "CMakeFiles\\\\cmTC_d0488.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\usr/include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include" -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerABI.c"]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-windows-msvc]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:\\Program Files\\LLVM\\lib\\clang\\21\\include]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe --target=x86_64-w64-mingw32 -v -Wl -v CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj -o cmTC_d0488.exe -Wl --out-implib libcmTC_d0488.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Program Files\\LLVM\\bin]
+        link line: [ "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe" -m i386pep -Bdynamic -o cmTC_d0488.exe "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o" "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib" "-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows" -v CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_d0488.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o"]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_d0488.exe] ==> ignore
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib]
+          arg [-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows] ==> dir [C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d0488.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_d0488.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o]
+        linker tool for 'C': C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib]
+        collapse library dir [C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows] ==> [C:/Program Files/LLVM/lib/clang/21/lib/windows]
+        implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/mingw/lib;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib;C:/Program Files/LLVM/lib/clang/21/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ld.exe" "-v"
+      GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-dd1ykd"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-dd1ykd"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "--target=x86_64-w64-mingw32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-dd1ykd'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_5b0ab
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   --target=x86_64-w64-mingw32    -v -MD -MT CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_5b0ab.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         (in-process)
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-dd1ykd" -v "-fcoverage-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-dd1ykd" -resource-dir "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21" -dependency-file "CMakeFiles\\\\cmTC_5b0ab.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15\\\\backward" -internal-isystem "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\usr/include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include" -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-windows-msvc
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15\\x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15\\backward"
+        ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0\\x86_64-w64-mingw32
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0\\backward
+         C:\\Program Files\\LLVM\\lib\\clang\\21\\include
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include
+         C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include
+        End of search list.
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE --target=x86_64-w64-mingw32 -v -Wl,-v CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5b0ab.exe -Wl,--out-implib,libcmTC_5b0ab.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe" -m i386pep -Bdynamic -o cmTC_5b0ab.exe "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o" "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib" "-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows" -v CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_5b0ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o"
+        GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/x86_64-w64-mingw32]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/backward]
+          add: [C:/Program Files/LLVM/lib/clang/21/include]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include]
+          add: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+        end of search list found
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/x86_64-w64-mingw32] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/backward] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/backward]
+        collapse include dir [C:/Program Files/LLVM/lib/clang/21/include] ==> [C:/Program Files/LLVM/lib/clang/21/include]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+        implicit include dirs: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/x86_64-w64-mingw32;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/15.1.0/backward;C:/Program Files/LLVM/lib/clang/21/include;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-dd1ykd']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_5b0ab]
+        ignore line: [[1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   --target=x86_64-w64-mingw32    -v -MD -MT CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_5b0ab.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Program Files\\LLVM\\bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Program Files\\\\LLVM\\\\bin\\\\clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-dd1ykd" -v "-fcoverage-compilation-dir=C:\\\\Users\\\\AG\\\\.gemini\\\\antigravity\\\\scratch\\\\Cpp\\\\Snake\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-dd1ykd" -resource-dir "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21" -dependency-file "CMakeFiles\\\\cmTC_5b0ab.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include\\\\c++\\\\15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include\\\\c++\\\\15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\c++\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1.0\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15.1\\\\backward" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15\\\\x86_64-w64-mingw32" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\include\\\\g++-v15\\\\backward" -internal-isystem "C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\usr/include" -internal-isystem "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\include" -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-windows-msvc]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include\\c++\\15.1.0\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\c++\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1.0\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15.1\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15\\x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\include\\g++-v15\\backward"]
+        ignore line: [ignoring nonexistent directory "C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0\\x86_64-w64-mingw32]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include\\c++\\15.1.0\\backward]
+        ignore line: [ C:\\Program Files\\LLVM\\lib\\clang\\21\\include]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\x86_64-w64-mingw32\\include]
+        ignore line: [ C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE --target=x86_64-w64-mingw32 -v -Wl -v CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5b0ab.exe -Wl --out-implib libcmTC_5b0ab.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Program Files\\LLVM\\bin]
+        link line: [ "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe" -m i386pep -Bdynamic -o cmTC_5b0ab.exe "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o" "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib" "-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib" "-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows" -v CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_5b0ab.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 "C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o"]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\ld.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_5b0ab.exe] ==> ignore
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib]
+          arg [-LC:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib] ==> dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib]
+          arg [-LC:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows] ==> dir [C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5b0ab.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_5b0ab.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o] ==> obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o]
+        linker tool for 'CXX': C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib\\\\crt2.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtbegin.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o]
+        collapse obj [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0\\\\crtend.o] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib\\\\gcc\\\\x86_64-w64-mingw32\\\\15.1.0] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\x86_64-w64-mingw32\\\\mingw/lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:\\\\Users\\\\AG\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\lib] ==> [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib]
+        collapse library dir [C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows] ==> [C:/Program Files/LLVM/lib/clang/21/lib/windows]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtbegin.o;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/crtend.o]
+        implicit dirs: [C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/lib;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/mingw/lib;C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib;C:/Program Files/LLVM/lib/clang/21/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/ld.exe" "-v"
+      GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r1) 2.44
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "build/_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "build/_deps/raylib-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-68f0z5"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-68f0z5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "--target=x86_64-w64-mingw32"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-68f0z5'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_e592e
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCOMPILER_HAS_THOSE_TOGGLES  --target=x86_64-w64-mingw32    -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_e592e.dir/src.c.obj -MF CMakeFiles\\cmTC_e592e.dir\\src.c.obj.d -o CMakeFiles/cmTC_e592e.dir/src.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-68f0z5/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe --target=x86_64-w64-mingw32  CMakeFiles/cmTC_e592e.dir/src.c.obj -o cmTC_e592e.exe -Wl,--out-implib,libcmTC_e592e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-uxd43a"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-uxd43a"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake;C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-uxd43a'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_34d3e
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -MD -MT CMakeFiles/cmTC_34d3e.dir/src.c.obj -MF CMakeFiles\\cmTC_34d3e.dir\\src.c.obj.d -o CMakeFiles/cmTC_34d3e.dir/src.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-uxd43a/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  CMakeFiles/cmTC_34d3e.dir/src.c.obj -o cmTC_34d3e.exe -Wl,--out-implib,libcmTC_34d3e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: [code=1] cmTC_34d3e.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  CMakeFiles/cmTC_34d3e.dir/src.c.obj -o cmTC_34d3e.exe -Wl,--out-implib,libcmTC_34d3e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: CMakeFiles/cmTC_34d3e.dir/src.c.obj:src.c:(.text+0x2a): undefined reference to `pthread_create'
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: CMakeFiles/cmTC_34d3e.dir/src.c.obj:src.c:(.text+0x33): undefined reference to `pthread_detach'
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: CMakeFiles/cmTC_34d3e.dir/src.c.obj:src.c:(.text+0x3c): undefined reference to `pthread_cancel'
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: CMakeFiles/cmTC_34d3e.dir/src.c.obj:src.c:(.text+0x49): undefined reference to `pthread_join'
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: CMakeFiles/cmTC_34d3e.dir/src.c.obj:src.c:(.text+0x52): undefined reference to `pthread_exit'
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yx16pe"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yx16pe"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake;C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yx16pe'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_812a1
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu99 -MD -MT CMakeFiles/cmTC_812a1.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_812a1.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_812a1.dir/CheckFunctionExists.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-yx16pe/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_812a1.dir/CheckFunctionExists.c.obj -o cmTC_812a1.exe -Wl,--out-implib,libcmTC_812a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        FAILED: [code=1] cmTC_812a1.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_812a1.dir/CheckFunctionExists.c.obj -o cmTC_812a1.exe -Wl,--out-implib,libcmTC_812a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        C:\\Users\\AG\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.MCF.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ld.exe: cannot find -lpthreads: No such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-wl9iyd"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-wl9iyd"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake;C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-wl9iyd'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_a4f0a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu99 -MD -MT CMakeFiles/cmTC_a4f0a.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_a4f0a.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_a4f0a.dir/CheckFunctionExists.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-wl9iyd/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32 -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_a4f0a.dir/CheckFunctionExists.c.obj -o cmTC_a4f0a.exe -Wl,--out-implib,libcmTC_a4f0a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sq5bh8"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sq5bh8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake;C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sq5bh8'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_64834
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  -std=gnu99 -MD -MT CMakeFiles/cmTC_64834.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_64834.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_64834.dir/CheckIncludeFile.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-sq5bh8/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  CMakeFiles/cmTC_64834.dir/CheckIncludeFile.c.obj -o cmTC_64834.exe -Wl,--out-implib,libcmTC_64834.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "build/_deps/raylib-src/src/external/glfw/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-fy5j9g"
+      binary: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-fy5j9g"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/cmake;C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-fy5j9g'
+        
+        Run Build Command(s): C:/Users/AG/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe -v cmTC_10aca
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  -std=gnu99 -MD -MT CMakeFiles/cmTC_10aca.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_10aca.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_10aca.dir/CheckIncludeFile.c.obj -c C:/Users/AG/.gemini/antigravity/scratch/Cpp/Snake/build/CMakeFiles/CMakeScratch/TryCompile-fy5j9g/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith --target=x86_64-w64-mingw32  CMakeFiles/cmTC_10aca.dir/CheckIncludeFile.c.obj -o cmTC_10aca.exe -Wl,--out-implib,libcmTC_10aca.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

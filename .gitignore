@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+*.exe
+*.class
+*.pyc
+*.pkl
+*.png
+*.jpg
+*.jpeg
+*.json
+node_modules/
+.history/
+.gemini/
+/python/data/cache/

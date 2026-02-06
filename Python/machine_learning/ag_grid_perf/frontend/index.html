@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ag-Grid High Performance Demo</title>
+    <!-- Ag-Grid Community CSS -->
+    <!-- Ag-Grid Enterprise (Trial) -->
+    <script src="https://cdn.jsdelivr.net/npm/ag-grid-enterprise/dist/ag-grid-enterprise.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/styles/ag-grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/styles/ag-theme-alpine.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #181d1f;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #controls {
+            padding: 15px;
+            background: #222628;
+            border-bottom: 1px solid #333;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        select,
+        button,
+        input {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: 1px solid #444;
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #444;
+        }
+
+        button.primary {
+            background: #0076a8;
+            border-color: #005f87;
+        }
+
+        #grid-container {
+            flex: 1;
+            width: 100%;
+        }
+
+        .stats {
+            margin-left: auto;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .ag-theme-alpine-dark {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Highlight cells on flash */
+        .ag-theme-alpine-dark .ag-cell-data-changed {
+            background-color: #3b82f6 !important;
+        }
+
+        .ag-theme-alpine-dark .ag-cell-data-changed-animation {
+            background-color: transparent !important;
+            transition: background-color 1s;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="controls">
+        <div class="control-group">
+            <label>Size:</label>
+            <select id="rowCount">
+                <option value="100">100 Rows</option>
+                <option value="10000">10,000 Rows</option>
+                <option value="100000">100,000 Rows</option>
+                <option value="1000000">1,000,000 Rows</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Update Interval (ms):</label>
+            <input type="range" id="frequency" min="10" max="2000" value="50"
+                oninput="document.getElementById('freqVal').innerText = this.value">
+            <span id="freqVal">50</span>ms
+        </div>
+
+        <button onclick="startSimulation()" class="primary">🚀 Start / Reset</button>
+        <button onclick="stopSimulation()">⏹ Stop</button>
+
+        <div class="stats">
+            <span id="status">Disconnected</span> |
+            Updates/Sec: <span id="updateRate">0</span> |
+            Row Count: <span id="actualRows">0</span>
+        </div>
+    </div>
+
+    <div id="grid-container" class="ag-theme-alpine-dark"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
