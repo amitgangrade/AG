@@ -6,7 +6,7 @@ import os
 class SnakeGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Snake Game")
+        self.root.title("This is Snake Game")
         self.root.resizable(False, False)
 
         self.cell_size = 20
@@ -15,7 +15,7 @@ class SnakeGame:
         self.width = self.width_cells * self.cell_size
         self.height = self.height_cells * self.cell_size
 
-        self.canvas = tk.Canvas(root, width=self.width, height=self.height, bg="black")
+        self.canvas = tk.Canvas(root, width=self.width, height=self.height, bg="White")
         self.canvas.pack()
 
         # Score setup
@@ -127,7 +127,7 @@ class SnakeGame:
             self.snake.pop()
 
         self.draw()
-        self.root.after(100, self.game_loop)
+        self.root.after(200, self.game_loop)
 
     def draw(self):
         self.canvas.delete("all")
@@ -151,9 +151,9 @@ class SnakeGame:
         self.save_high_score()
         self.update_score()
         self.canvas.create_text(self.width/2, self.height/2, text="GAME OVER", 
-                              fill="red", font=("Courier", 30, "bold"))
+                              fill="Yellow", font=("Courier", 30, "bold"))
         self.canvas.create_text(self.width/2, self.height/2 + 40, text="Press Space to Menu", 
-                              fill="white", font=("Arial", 14))
+                              fill="Blue", font=("Arial", 14))
 
 if __name__ == "__main__":
     root = tk.Tk()
